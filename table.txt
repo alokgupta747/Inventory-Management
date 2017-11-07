@@ -1,0 +1,99 @@
+
+create table sublocationincharge
+(
+SUBINCHARGEID NUMBER PRIMARY KEY,
+PASSWORD VARCHAR2(10),
+NAME VARCHAR2(20),
+HOUSENO VARCHAR2(10),
+STREET VARCHAR2(10),
+CITY VARCHAR2(10),
+PHONE NUMBER,
+EMAIL VARCHAR2(10),
+STATE VARCHAR2(10),
+LOCATIONNAME VARCHAR2(10),
+MAXNOOFRETAILERS VARCHAR2(10),
+COUNTRY VARCHAR2(10));
+
+create table supplier(
+SUPPLIERID NUMBER,
+NAME VARCHAR2(50),
+PHONE NUMBER,
+EMAIL VARCHAR2(20),
+HOUSE VARCHAR2(50),
+STREET VARCHAR2(50),
+CITY VARCHAR2(50),
+COUNTRY VARCHAR2(50));
+
+create table ITEM(
+ITEMID NUMBER,
+ITEMNAME VARCHAR2(20),
+UNITCOST NUMBER(5,2));
+
+create table retailer(
+RETAILERID number PRIMARY KEY,
+password varchar2(10),
+name varchar2(20),
+houseno varchar2(5),
+street varchar2(20),
+city varchar2(15),
+state varchar2(15),
+country varchar2(15),
+phone varchar2(15),
+email varchar2(20));
+
+create table warehousepayment(
+WPOID number,
+PAYDATE varchar2(10),
+SUPPLIERID number,
+CHEQUENO varchar2(10));
+
+create table warehousepurchaseorder(
+WPOID number PRIMARY KEY,
+ITEMID number,
+QTY number);
+
+create table sublocationstock(
+ITEMID number,
+qty number);
+
+create table slpurchaseorder(SUBPOID number,itemid number,qty number)
+
+create table adminlogin(username varchar2(20),password varchar2(10))
+
+create table subloclogin(username varchar2(20),password varchar2(10))
+
+
+create table warehousesalesorder(slpoid number(5),warehousesalesdate varchar2(10),shipmentdes varchar2(10),flag number(5));
+
+drop table warehousesalesorder;
+create table warehousesalesorder(SLPOID number,warehousesaledate varchar2(20),shipmentdes varchar2(20),itemid number,qty number)
+
+create table warehousestock(itemid number,itemname varchar2(30),qty number);
+
+create table slpayment(
+SUBPOID number,
+PODATE varchar2(20),
+CHENO varchar2(10));
+
+CREATE TABLE retailerpurchaseorder(RETAILERID NUMBER,
+RPOID NUMBER,
+itemno NUMBER,QTY NUMBER);
+
+CREATE TABLE retailerpayment(
+RPOID NUMBER,
+retailerid NUMBER,
+podate VARCHAR2(15),
+cheno VARCHAR2(10));
+
+create table retstock(
+retailerid number,
+itemno number,
+qty number);
+
+create table slsalesorder(
+rpoid number,
+sliid number,
+slpaydate varchar2(20),
+cheno number,
+itemno number,
+qty number);

@@ -1,0 +1,13 @@
+<html>
+<body bgcolor="lightyellow">
+<h2><b><u>Delete Supplier from the warehouse</u></b></h2><center>
+<form action="./DeleteSupplierController" >
+
+<table><tr><td>Supplierid   :</td><td> <input type="text" name="number"></td></tr>
+<tr><td align=middle><input type="submit" name="submit" value="delete"></td></tr>
+</table>
+</form>
+
+</center>
+</body>
+</html>

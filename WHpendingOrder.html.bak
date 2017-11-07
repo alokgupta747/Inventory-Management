@@ -1,0 +1,7 @@
+<html>
+<body bgcolor=lightyellow><center><font color=red><b>u>WareHouseSalesOrder</u></b></font>
+<table>
+<li><tr><td><a href=./WHPendingOrder>WareHousePendingOrder</a></td></tr></li>
+<li><tr><td><a href=./WHDispatchOrder>WareHouseDispatchOrder</a></td></tr></li>
+</table>
+</body></html>

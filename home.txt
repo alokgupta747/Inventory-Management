@@ -1,0 +1,11 @@
+<html>
+<body bgcolor=lightyellow><center>
+<font color=green><h1><marquee behaviour=alternate>WAREHOUSE MANAGEMENT</marquee></h1></font>
+<br><br><br>
+<table>
+<tr><td><a href=adminlogin.html>ADMINISTRATOR</a></td><tr>
+<tr><td><a href=subloclogin.html>SUBLOCATIONINCHARGE</a></td><tr>
+<tr><td><a href=retailerlogin.html>RETAILER</a></td><tr>
+</table>
+</body>
+</html>

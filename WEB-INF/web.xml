@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+<servlet>
+	<servlet-name>AdminLogin</servlet-name>
+	<servlet-class>AdminLogin</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>Supplier</servlet-name>
+	<servlet-class>SupController</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>DeleteSupplierController</servlet-name>
+	<servlet-class>DeleteSupplierController</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>SupView</servlet-name>
+	<servlet-class>SupView</servlet-class>
+</servlet>
+
+<servlet>
+	
+	<servlet-name>DeleteSupplierController2</servlet-name>
+	<servlet-class>DeleteSupplierController2</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>SubLocationController</servlet-name>
+	<servlet-class>SubLocationController</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>DeleteSubIncharge</servlet-name>
+	<servlet-class>DeleteSubIncharge</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>DeleteSubIncharge2</servlet-name>
+	<servlet-class>DeleteSubIncharge2</servlet-class>
+</servlet>
+
+<servlet>
+	
+	<servlet-name>ViewSubIncharge</servlet-name>
+	<servlet-class>ViewSubIncharge</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>AddItemController</servlet-name>
+	<servlet-class>AddItemController</servlet-class>
+</servlet>
+
+<servlet>
+	
+	<servlet-name>DeleteItemController</servlet-name>
+	<servlet-class>DeleteItemController</servlet-class>
+</servlet>
+
+<servlet>
+	
+	<servlet-name>DeleteItemController2</servlet-name>
+	<servlet-class>DeleteItemController2</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>ViewItem</servlet-name>
+	<servlet-class>ViewItem</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>WareHousePO</servlet-name>
+	<servlet-class>WareHousePO</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>WareHousePO1</servlet-name>
+	<servlet-class>WareHousePO1</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>AddWareHouseStock</servlet-name>
+	<servlet-class>AddWareHouseStock</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>AddWareHouseStock1</servlet-name>
+	<servlet-class>AddWareHouseStock1</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>ViewWareHouseStock</servlet-name>
+	<servlet-class>ViewWareHouseStock</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>AddSubLocRetailer</servlet-name>
+	<servlet-class>AddSubLocRetailer</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>DelSubLocRetailer</servlet-name>
+	<servlet-class>DelSubLocRetailer</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>DelSubLocRetailer2</servlet-name>
+	<servlet-class>DelSubLocRetailer2</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>ViewSubLocRetailer</servlet-name>
+	<servlet-class>ViewSubLocRetailer</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>ViewSubLocStock</servlet-name>
+	<servlet-class>ViewSubLocStock</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>SubLocPO</servlet-name>
+	<servlet-class>SubLocPO</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>SubLocPO1</servlet-name>
+	<servlet-class>SubLocPO1</servlet-class>
+</servlet>
+
+<servlet>
+	
+	<servlet-name>SubLocLogin</servlet-name>
+	<servlet-class>SubLocLogin</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>AdminChPwd</servlet-name>
+	<servlet-class>AdminChPwd</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>AdminChPwd1</servlet-name>
+	<servlet-class>AdminChPwd1</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>SubLocChPwd</servlet-name>
+	<servlet-class>SubLocChPwd</servlet-class>
+</servlet>
+
+<servlet>
+	
+	<servlet-name>SubLocChPwd1</servlet-name>
+	<servlet-class>SubLocChPwd1</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>WareHouseSales</servlet-name>
+	<servlet-class>WareHouseSales</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>RetailerLogin</servlet-name>
+	<servlet-class>RetailerLogin</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>RetailerChPwd</servlet-name>
+	<servlet-class>RetailerChPwd</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>RetailerChPwd1</servlet-name>
+	<servlet-class>RetailerChPwd1</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>CustomerChPwd</servlet-name>
+	<servlet-class>CustomerChPwd</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>CustomerChPwd1</servlet-name>
+	<servlet-class>CustomerChPwd1</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>RetailerPO</servlet-name>
+	<servlet-class>RetailerPO</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>RetailerPO1</servlet-name>
+	<servlet-class>RetailerPO1</servlet-class>
+</servlet>
+
+
+<servlet>
+	
+	<servlet-name>signout</servlet-name>
+	<servlet-class>signout</servlet-class>
+</servlet>
+
+
+<servlet>
+	
+	<servlet-name>SubLocsignout</servlet-name>
+	<servlet-class>SubLocsignout</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>WHPendingOrder2</servlet-name>
+	<servlet-class>WHPendingOrder2</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>WHDispatchOrder2</servlet-name>
+	<servlet-class>WHDispatchOrder2</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>WHDispatchOrder3</servlet-name>
+	<servlet-class>WHDispatchOrder3</servlet-class>
+</servlet>
+
+<servlet>
+	
+	<servlet-name>SubViewPendingOrder</servlet-name>
+	<servlet-class>SubViewPendingOrder</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>SubViewDispatchOrder</servlet-name>
+	<servlet-class>SubViewDispatchOrder</servlet-class>
+</servlet>
+
+<servlet>
+	
+	<servlet-name>SubLocSalesOrder</servlet-name>
+	<servlet-class>SubLocSalesOrder</servlet-class>
+</servlet>
+
+<servlet>
+	
+	<servlet-name>ViewRetailers</servlet-name>
+	<servlet-class>ViewRetailers</servlet-class>
+</servlet>
+
+<servlet>
+	
+	<servlet-name>ViewWHPurOrder</servlet-name>
+	<servlet-class>ViewWHPurOrder</servlet-class>
+</servlet>
+
+
+<servlet>
+	
+	<servlet-name>SLPendingOrder</servlet-name>
+	<servlet-class>SLPendingOrder</servlet-class>
+</servlet>
+
+<servlet>
+	
+	<servlet-name>SLDispatchOrder2</servlet-name>
+	<servlet-class>SLDispatchOrder2</servlet-class>
+</servlet>
+
+<servlet>
+	
+	<servlet-name>SLDispatchOrder3</servlet-name>
+	<servlet-class>SLDispatchOrder3</servlet-class>
+</servlet>
+
+<servlet>
+	
+	<servlet-name>ViewRetailerStock</servlet-name>
+	<servlet-class>ViewRetailerStock</servlet-class>
+</servlet>
+<servlet>
+	
+	<servlet-name>RetailerBill</servlet-name>
+	<servlet-class>RetailerBill</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>AddCustomerr</servlet-name>
+	<servlet-class>AddCustomer</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>ViewCustomerStockk</servlet-name>
+	<servlet-class>ViewCustomerStock</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ViewCustomerStockk</servlet-name>
+	<url-pattern>/ViewCustomerStock</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>AddCustomerr</servlet-name>
+	<url-pattern>/AddCustomer</url-pattern>
+</servlet-mapping>
+
+
+<servlet-mapping>
+	<servlet-name>Supplier</servlet-name>
+	<url-pattern>/Supplier</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>SupView</servlet-name>
+	<url-pattern>/SupView</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>DeleteSupplierController</servlet-name>
+	<url-pattern>/DeleteSupplierController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>DeleteSupplierController2</servlet-name>
+	<url-pattern>/DeleteSupplierController2</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>SubLocationController</servlet-name>
+	<url-pattern>/SubLocationController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>DeleteSubIncharge</servlet-name>
+	<url-pattern>/DeleteSubIncharge</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>DeleteSubIncharge2</servlet-name>
+	<url-pattern>/DeleteSubIncharge2</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ViewSubIncharge</servlet-name>
+	<url-pattern>/ViewSubIncharge</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>AddItemController</servlet-name>
+	<url-pattern>/AddItemController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>DeleteItemController</servlet-name>
+	<url-pattern>/DeleteItemController</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>DeleteItemController2</servlet-name>
+	<url-pattern>/DeleteItemController2</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>ViewItem</servlet-name>
+	<url-pattern>/ViewItem</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>WareHousePO</servlet-name>
+	<url-pattern>/WareHousePO</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>WareHousePO1</servlet-name>
+	<url-pattern>/WareHousePO1</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+               <servlet-name>AddWareHouseStock</servlet-name>
+	<url-pattern>/AddWareHouseStock</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+               <servlet-name>AddWareHouseStock1</servlet-name>
+	<url-pattern>/AddWareHouseStock1</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+               <servlet-name>ViewWareHouseStock</servlet-name>
+	<url-pattern>/ViewWareHouseStock</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+               <servlet-name>AddSubLocRetailer</servlet-name>
+	<url-pattern>/AddSubLocRetailer</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+               <servlet-name>DelSubLocRetailer</servlet-name>
+	<url-pattern>/DelSubLocRetailer</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+               <servlet-name>DelSubLocRetailer2</servlet-name>
+	<url-pattern>/DelSubLocRetailer2</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+
+               <servlet-name>ViewSubLocRetailer</servlet-name>
+	<url-pattern>/ViewSubLocRetailer</url-pattern>
+
+</servlet-mapping>
+<servlet-mapping>
+
+               <servlet-name>ViewSubLocStock</servlet-name>
+	       <url-pattern>/ViewSubLocStock</url-pattern>
+
+</servlet-mapping>
+<servlet-mapping>
+
+               <servlet-name>SubLocPO</servlet-name>
+	        <url-pattern>/SubLocPO</url-pattern>
+
+</servlet-mapping>
+<servlet-mapping>
+
+               <servlet-name>SubLocPO1</servlet-name>
+	       <url-pattern>/SubLocPO1</url-pattern>
+
+</servlet-mapping>
+<servlet-mapping>
+
+               <servlet-name>AdminLogin</servlet-name>
+	          <url-pattern>/AdminLogin</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping> 
+
+               <servlet-name>SubLocLogin</servlet-name>
+	      <url-pattern>/SubLocLogin</url-pattern>
+
+</servlet-mapping>
+<servlet-mapping>
+
+               <servlet-name>AdminChPwd</servlet-name>
+	       <url-pattern>/AdminChPwd</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+
+               <servlet-name>AdminChPwd1</servlet-name>
+	      <url-pattern>/AdminChPwd1</url-pattern>
+
+</servlet-mapping>
+
+<servlet-mapping>
+
+               <servlet-name>SubLocChPwd</servlet-name>
+	      <url-pattern>/SubLocChPwd</url-pattern> 
+
+</servlet-mapping>
+
+<servlet-mapping>
+	    <servlet-name>SubLocChPwd1</servlet-name>
+	       <url-pattern>/SubLocChPwd1</url-pattern> 
+ </servlet-mapping>
+<servlet-mapping>
+	    <servlet-name>WareHouseSales</servlet-name>
+	       <url-pattern>/WareHouseSales</url-pattern> 
+ </servlet-mapping>
+<servlet-mapping>
+	    <servlet-name>RetailerLogin</servlet-name>
+	       <url-pattern>/RetailerLogin</url-pattern> 
+ </servlet-mapping>
+<servlet-mapping>
+	    <servlet-name>RetailerChPwd</servlet-name>
+	       <url-pattern>/RetailerChPwd</url-pattern> 
+ </servlet-mapping>
+<servlet-mapping>
+	    <servlet-name>RetailerChPwd1</servlet-name>
+	       <url-pattern>/RetailerChPwd1</url-pattern> 
+ </servlet-mapping>
+ <servlet-mapping>
+	    <servlet-name>CustomerChPwd</servlet-name>
+	       <url-pattern>/CustomerChPwd</url-pattern> 
+ </servlet-mapping>
+<servlet-mapping>
+	    <servlet-name>CustomerChPwd1</servlet-name>
+	       <url-pattern>/CustomerChPwd1</url-pattern> 
+ </servlet-mapping>
+<servlet-mapping>
+	    <servlet-name>RetailerPO</servlet-name>
+	       <url-pattern>/RetailerPO</url-pattern> 
+ </servlet-mapping>
+
+<servlet-mapping>
+	    <servlet-name>RetailerPO1</servlet-name>
+	       <url-pattern>/RetailerPO1</url-pattern> 
+ </servlet-mapping>
+
+
+<servlet-mapping>
+	    <servlet-name>signout</servlet-name>
+	       <url-pattern>/signout</url-pattern> 
+ </servlet-mapping>
+
+
+
+<servlet-mapping>
+	    <servlet-name>SubLocsignout</servlet-name>
+	       <url-pattern>/SubLocsignout</url-pattern> 
+ </servlet-mapping>
+
+<servlet-mapping>
+	    <servlet-name>WHPendingOrder2</servlet-name>
+	       <url-pattern>/WHPendingOrder2</url-pattern> 
+ </servlet-mapping>
+
+<servlet-mapping>
+	    <servlet-name>WHDispatchOrder2</servlet-name>
+	       <url-pattern>/WHDispatchOrder2</url-pattern> 
+ </servlet-mapping>
+
+<servlet-mapping>
+	    <servlet-name>WHDispatchOrder3</servlet-name>
+	       <url-pattern>/WHDispatchOrder3</url-pattern> 
+ </servlet-mapping>
+
+
+
+<servlet-mapping>
+	    <servlet-name>SubViewPendingOrder</servlet-name>
+	       <url-pattern>/SubViewPendingOrder</url-pattern> 
+ </servlet-mapping>
+
+<servlet-mapping>
+	    <servlet-name>SubViewDispatchOrder</servlet-name>
+	       <url-pattern>/SubViewDispatchOrder</url-pattern> 
+ </servlet-mapping>
+
+<servlet-mapping>
+	    <servlet-name>SubLocSalesOrder</servlet-name>
+	       <url-pattern>/SubLocSalesOrder</url-pattern> 
+ </servlet-mapping>
+ 
+<servlet-mapping>
+	    <servlet-name>ViewRetailers</servlet-name>
+	       <url-pattern>/ViewRetailers</url-pattern> 
+ </servlet-mapping>
+
+<servlet-mapping>
+	    <servlet-name>ViewWHPurOrder</servlet-name>
+	       <url-pattern>/ViewWHPurOrder</url-pattern> 
+ </servlet-mapping>
+
+<servlet-mapping>
+	    <servlet-name>SLPendingOrder</servlet-name>
+	       <url-pattern>/SLPendingOrder</url-pattern> 
+ </servlet-mapping>
+
+
+<servlet-mapping>
+	    <servlet-name>SLDispatchOrder2</servlet-name>
+	       <url-pattern>/SLDispatchOrder2</url-pattern> 
+ </servlet-mapping>
+
+
+<servlet-mapping>
+	    <servlet-name>SLDispatchOrder3</servlet-name>
+	       <url-pattern>/SLDispatchOrder3</url-pattern> 
+ </servlet-mapping>
+
+<servlet-mapping>
+	    <servlet-name>ViewRetailerStock</servlet-name>
+	       <url-pattern>/ViewRetailerStock</url-pattern> 
+ </servlet-mapping>
+<servlet-mapping>
+	    <servlet-name>RetailerBill</servlet-name>
+	       <url-pattern>/RetailerBill</url-pattern> 
+ </servlet-mapping>
+</web-app>

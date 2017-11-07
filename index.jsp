@@ -1,0 +1,80 @@
+<Html>
+<Title> :::: :::: </Title>
+<Head>
+<Script Language="JavaScript">
+function xyz()
+{
+  window.open("login.html","LoginPage","width=924,height=768,left=10,top=10,toolbar=false,status=false,menubar=true,directories=true,resizable=true");
+}
+</Script>
+</Head>
+<Body topmargin="0" leftmargin="0" MarginHeight="0" MarginWidth="0" rightmargin="0" bottommargin="0" Bgcolor="#9D9D9D">
+<Table Border="0" Cellpadding="0" Cellspacing="0"  Align="Center">
+ <Tr>
+    <Td>
+      <Table border="0" Cellpadding="0" Cellspacing="0" >
+        <Tr>
+           <Td ><img border="0" src="topp.jpeg" width="779" height="141" ></td>
+        </Tr>
+      </Table>
+    </Td>
+  </Tr>
+</Table>
+<Table BgColor=White Width=779 Align="Center">
+<Tr><Td>
+<!-- Search Google -->
+  <FORM action=http://www.google.com/search target="_blank"method=get><INPUT 
+                  type=hidden value=UTF-8 name=ie> <INPUT type=hidden 
+                  value=UTF-8 name=oe> 
+<TABLE bgColor=White  Align=Right>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=left height=32>
+
+
+
+<B><Font Face=verdana Color=DarkGreen Size=2>&nbsp; Welcome to <font color="#FF0000">Inventory Management System</font> &nbsp; </Font></B>
+<A href="http://www.google.com/">
+<IMG alt=Google src="Logo_25wht.gif" align=middle  border=0 width="75" height="32"></IMG></A>
+               <INPUT maxLength=255 
+                        size=15 name=q> <INPUT type=submit value="Search" name=btnG> 
+  </TD>
+</TR>
+</TBODY>
+</TABLE>
+</FORM>
+<!-- Search Google -->
+</Table>
+
+<Table valign="top" Align="Center"  cellspacing=0 cellpadding=0 BgColor=#095AA6>
+<Tr cellspacing=0 cellpadding=0>
+<Td valign="top" cellspacing=0 cellpadding=0 height=105>
+<Img Src="line1.gif"><Br>
+<Img Src="logo2.gif"  border=0 width=202>
+
+</Table>
+
+<Table valign="top" Align="Center"  cellspacing=0 cellpadding=0 BgColor=#FEFCD5 width=779>
+<Tr cellspacing=0 cellpadding=0>
+<Td valign="top" cellspacing=0 cellpadding=0  width=100% colspan=2>
+<Marquee><Font Face=verdana Size=2><B>Inventory Management System</Font>
+</Marquee>
+<Tr cellspacing=0 cellpadding=0 width=100%>
+<Td valign="top" cellspacing=0 cellpadding=0 width=172>
+<Img Src="login1.jpg" width="172" height="244"  border=0 onClick="xyz()" target="_blank">
+<Td valign="top" cellspacing=0 cellpadding=0 width=607>
+
+</Table>
+<Table width=779 align=Center BgColor=#FEFCD5>
+<Tr>
+<Td><Br>
+
+
+
+<Table Border="0" Cellpadding="0" Cellspacing="0" Width=607 Align="Center">
+<Tr>
+    <Td Width="100%" Valign="top">&nbsp;</Td>
+  </Tr>
+</Table>
+</Body>
+</Html>

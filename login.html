@@ -1,0 +1,122 @@
+<Html>
+<head>
+<Title> :::: :::: </Title>
+<script language="javascript">
+function validate()
+{
+	var cid = document.frm.name.value;
+	var pwd = document.frm.pass.value;
+	if(cid=="")
+	{
+		alert("Customer ID Required");
+		return false;
+	}
+	else if(pwd=="")
+	{
+		alert("Password Required");
+		return false;
+	}
+	else
+	{
+		return true;
+	}
+
+}
+</script>
+<Body topmargin="0" leftmargin="0" MarginHeight="0" MarginWidth="0" rightmargin="0" bottommargin="0" Bgcolor="#9D9D9D">
+<Table Border="0" Cellpadding="0" Cellspacing="0"  Align="Center">
+ <Tr>
+    <Td>
+      <Table border="0" Cellpadding="0" Cellspacing="0" >
+        <Tr>
+           <Td ><img border="0" src="19.jpg" width="779" height="141" >           </td>
+        </Tr>
+      </Table>
+    </Td>
+  </Tr>
+</Table>
+
+<Table BgColor=White Width=779 Align="Center">
+<Tr><Td>
+<!-- Search Google -->
+  <FORM action=http://www.google.com/search target="_blank"method=get><INPUT 
+                  type=hidden value=UTF-8 name=ie> <INPUT type=hidden 
+                  value=UTF-8 name=oe> 
+<TABLE bgColor=White  Align=Right>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=left height=32>
+
+
+
+<B><Font Face=verdana Color=DarkGreen Size=2>&nbsp; &nbsp;Welcome to Inventory Management System &nbsp; &nbsp; </Font></B>
+<A href="http://www.google.com/">
+<IMG alt=Google src="Logo_25wht.gif" align=middle  border=0 width="75" height="32"></IMG></A>
+               <INPUT maxLength=255 
+                        size=15 name=q> <INPUT type=submit value="Search" name=btnG> 
+  </TD>
+</TR>
+</TBODY>
+</TABLE>
+</FORM>
+<!-- Search Google -->
+</Table>
+
+<Table valign="top" Align="Center"  cellspacing=0 cellpadding=0 BgColor=#095AA6 height="100">
+<Tr cellspacing=0 cellpadding=0>
+<Td valign="top" cellspacing=0 cellpadding=0 height=75>
+<Img Src="line1.gif" width="779" height="15"><Br>
+<Img Src="logo2.gif"  border=0 width=202>
+
+</Table>
+
+<Center>
+
+<Table valign="top" Align="Center"  cellspacing=0 cellpadding=0 BgColor=#FEFCD5 width=779 height="350">
+<Tr>
+<Td>
+<Table valign="top" Align="Center"  cellspacing=0 cellpadding=0 BgColor=#FEFCD5 width=350>
+<Tr cellspacing=0 cellpadding=0 Align=Center>
+<Td valign="top" cellspacing=0 cellpadding=0  width=100% Colspan=2 Align=Center>
+
+<Tr cellspacing=0 cellpadding=0 width=100% Align=Center>
+
+<Td valign="top" cellspacing=0 cellpadding=0 width=100% Align="Center" Colspan=3><Form name=frm action="jdbc_ora.jsp" method=POST onSubmit="return validate()">
+<B>LOGIN PAGE</B>
+<Br>
+<Br>
+<tbody  ><tbody  ><tbody  ><tbody  ><tbody  ><tbody  ><tbody  ><Tr><Td Width=50%><B>Customer ID  
+  <Td Width=50%><Input type=text name="name" size="20">
+
+<Tr><Td><Br>
+
+<tbody  ><tbody  ><tbody  ><tbody  ><Tr>
+<Td><B>Password 
+<Td><Input type="password" name="pass" size="20">
+
+
+<Tr><Td><Br>
+<tbody  ><tbody  ><tbody  ><tbody  ><Tr>
+<Td><B>User Type <Td><select name="utype">
+<option value="1">Administrator</option>
+<option value="2">Sub location in-charge </option>
+<option value="3">Retailer</option>
+<option value="4">Supplier</option>
+<option value="5">Customer</option>
+</select>
+<Tr><Td>
+</Table>
+<Tr><Td align="Center">
+<Input type=submit value=Login></Input>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<Input type=reset value=Reset></Input>
+</Form>
+<Br><Br>
+<Br>
+</Table>
+</Center>
+<Table Border="0" Cellpadding="0" Cellspacing="0" Width=775 Align="Center">
+<Tr>
+    <Td Width="100%" Valign="top">&nbsp;</Td>
+  </Tr>
+</Table>
+</Body>
+</Html>
